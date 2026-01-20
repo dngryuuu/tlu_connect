@@ -1,0 +1,37 @@
+# dependencies
+/node_modules
+
+# expo build files
+/.expo/web
+/.expo/prebuild
+
+# local .expo files
+.expo/*
+!.expo/settings.json
+!.expo/tasks
+!.expo/.gitignore
+
+# metro file watcher cache
+.watchmanconfig
+
+# yarn and npm lock files
+yarn.lock
+package-lock.json
+npm-debug.*
+*.orig
+
+# ios and android builds
+/ios/build/
+/android/build/
+/android/.gradle/
+
+# android and ios native folders (if you use prebuild/development client but manage config in app.json)
+/android
+/ios
+
+# debug files
+*.log
+.vscode/
+
+# misc
+.DS_Store

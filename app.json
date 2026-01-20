@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "TLU Connect",
+    "slug": "tlu_connect",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "notification": {
+      "icon": "./assets/icon.png",
+      "color": "#ffffff"
+    },
+    "android": {
+      "package": "com.ryuudang.tluconnect",
+      "permissions": [
+        "INTERNET"
+      ]
+    },
+    "ios": {
+      "bundleIdentifier": "com.ryuudang.tluconnect",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "owner": "vudang221",
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "useCleartextTraffic": true
+          }
+        }
+      ],
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "c89e09ed-5f2e-44c1-b6fd-12fed3bc4d76"
+      }
+    }
+  }
+}
